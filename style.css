@@ -24,3 +24,20 @@ h1{
     border-radius: 7px;
     border: none;
 }
+
+button{
+    width: 51%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 7px;
+    background-color: #7895CB;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #4a55a2;
+}
