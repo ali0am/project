@@ -8,3 +8,19 @@ body{
     align-items: center;
     text-align: center;
 }
+
+h1{
+    color: #ffffff;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    width: 51%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    border: none;
+}
