@@ -42,11 +42,8 @@ button:hover{
     background-color: #4a55a2;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#Toggle{
+    display: none;
 }
 
 .signup{
