@@ -83,3 +83,7 @@ input{
     margin-top: 10px;
     color: #4a55a2;
 }
+
+#Toggle:checked ~ .login{
+    transform: translateY(-430px);
+}
