@@ -9,41 +9,43 @@ body{
     text-align: center;
 }
 
-h1{
-    color: #ffffff;
-    font-weight: bolder;
-    padding-bottom: 50px;
-    font-size: 45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.origin{
+    width: 350px;
+    height: 500px;
+    box-shadow: 5px 30px 50px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-.box{
-    width: 51%;
-    padding: 15px;
-    margin-bottom: 25px;
-    border-radius: 7px;
-    border: none;
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 button{
-    width: 51%;
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
-    padding: 15px;
-    font-weight: bolder;
-    font-size: larger;
-    border-radius: 7px;
-    background-color: #7895CB;
+    background-color: #7895cb;
     color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 button:hover{
     background-color: #4a55a2;
 }
+
 form{
-    width: 500px;
-    height: 600px;
-    box-shadow: 5px 30px 50px;
-    border-radius:12px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
