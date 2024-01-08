@@ -70,3 +70,16 @@ input{
     padding: 10px;
     margin: 10px auto;
 }
+
+.login{
+    height: 500px;
+    margin-top: 34px;
+    transform: translateY(-100px);
+    background-color: #eeeeee;
+    transition: 0.85s;
+    border-radius: 60% / 10% ;
+}
+.login label{
+    margin-top: 10px;
+    color: #4a55a2;
+}
